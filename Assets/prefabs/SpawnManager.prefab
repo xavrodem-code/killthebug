@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1705175949481447957
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1705175949481447955}
+  - component: {fileID: 1705175949481447956}
+  m_Layer: 9
+  m_Name: SpawnManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1705175949481447955
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705175949481447957}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.6741582, y: -0.1211031, z: -1.0121424}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1705175949904620745}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1705175949481447956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705175949481447957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd10d841e711bac42981e1ef85409d29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _prefabSpider: {fileID: 7294347364494861548, guid: acffe601487b1494383ff3763bc6dd21,
+    type: 3}
+  _prefabYellowInsect: {fileID: 1777238257866676594, guid: dd3670d75baf3c844bb8c5c3155d04df,
+    type: 3}
+  _prefabWhiteInsect: {fileID: 8723845678238162977, guid: 2e3c1d20965396f419e4e7b47534194f,
+    type: 3}
+  _prefabRedInsect: {fileID: 5534847054653603069, guid: e62ea8459beaa8542a7dfaa0036a7a41,
+    type: 3}
+  _prefabGreyInsect: {fileID: 5147092552597156468, guid: 0163d70847bb7a342bc8986b8af42b39,
+    type: 3}
+  _prefabBrownInsect: {fileID: 7991534151154862065, guid: ea0045e06a5585745bb0fdd70be8b695,
+    type: 3}
+  _prefabBlackInsect: {fileID: 6977677530304372300, guid: ae89500bdb31df344b083a9e72de2e27,
+    type: 3}
+  _bugContainer: {fileID: 1705175949904620746}
+  _bugsLeft: 0
+--- !u!1 &1705175949904620746
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1705175949904620745}
+  m_Layer: 0
+  m_Name: BugContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1705175949904620745
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705175949904620746}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.8914413, y: 0.9195341, z: -7.0096684}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1705175949481447955}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

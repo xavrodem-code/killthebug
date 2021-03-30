@@ -1,0 +1,1 @@
+{"_level":[{"_sceneName":"Garage","_backgroundImage":{"instanceID":16670},"_bugSpeed":2,"_bugsSpawned":50},{"_sceneName":"Bedroom","_backgroundImage":{"instanceID":16512},"_bugSpeed":3,"_bugsSpawned":100},{"_sceneName":"Bathroom","_backgroundImage":{"instanceID":16594},"_bugSpeed":5,"_bugsSpawned":150}]}
